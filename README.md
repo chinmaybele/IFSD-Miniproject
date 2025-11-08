@@ -109,3 +109,57 @@ frontend/
 └── styles/ # CSS files
 ├── index.css
 └── theme.css
+
+
+
+## Installation
+
+### Backend
+1. Navigate to backend folder:
+```bash
+cd backend
+
+Install dependencies:
+
+npm install
+
+
+Create a .env file with environment variables (e.g., MONGO_URI, JWT_SECRET).
+
+Start the backend server:
+
+npm start
+
+Frontend
+
+Navigate to frontend folder:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the frontend:
+
+npm run dev
+
+
+Open the provided localhost URL in your browser (e.g., http://localhost:5173).
+
+Usage
+
+Sign up or log in as a user.
+
+Create new events with details such as title, date, time, and description.
+
+View all events on the Events page.
+
+Edit or delete your events.
+
+Profile page allows you to view or update personal details.
+
+Only authenticated users can access protected routes.
+
