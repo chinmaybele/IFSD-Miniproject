@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme overrides and helpers */
+:root{
+  --brand:#0f172a;
+  --accent:#06b6d4;
+  --gold:#d4af37;
+}
+
+body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+
+.container-max { max-width: 1100px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+
+.card {
+  @apply bg-white rounded-2xl p-6 shadow-lg;
+}
+
+.input {
+  @apply w-full p-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent;
+}
+
+.btn-primary {
+  @apply bg-accent text-white px-4 py-2 rounded-xl font-semibold hover:opacity-95 transition;
+}
